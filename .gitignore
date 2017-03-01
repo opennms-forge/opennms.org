@@ -28,3 +28,6 @@ user/config/security.yaml
 
 # Idea
 *.iml
+
+# Auto-generated content
+user/pages/01.opennms/03.versions/_versions/portfolio.md
