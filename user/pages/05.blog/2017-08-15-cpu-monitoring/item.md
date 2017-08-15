@@ -28,10 +28,12 @@ Let's say 30% constantly while working hour.
 You need a threshold like CPU usage above 40% constantly for a long time.
 1 hour for example.
 
-This one will definitely notice small usage growth.
-That's it.
+This one will definitely notice these small usage growths.
+I told you before "not much". :-)
 
 Of course you should have maybe 2 other thresholds like 85% over a small time span.
 15 - 30 minutes maybe or 95% for 5 minutes for critical alarming.
 
-With these 3 thresholds you are prepared good  
+I wrote some "ready to use" OpenNMS threshold configs which you can find in the wiki.
+
+Would you like to know more? link to wiki
