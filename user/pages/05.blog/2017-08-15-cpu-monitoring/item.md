@@ -1,5 +1,12 @@
-
-More than just CPU alarms...
+---
+title: CPU monitoring
+date: 21:51 2017-08-15
+author: Marcel Fuhrmann
+body_classes: header-lite fullwidth blogstyling
+taxonomy:
+    category: wiki
+    tag: [configuration, thresholding]
+---
 
 Oh really? What's special about it?
 Yes... Ehm.. Not much.
