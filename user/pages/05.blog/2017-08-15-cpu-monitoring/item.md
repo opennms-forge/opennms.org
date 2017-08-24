@@ -1,6 +1,6 @@
 ---
 title: CPU monitoring
-date: 21:51 2017-08-15
+date: 21:37 2017-08-24
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
@@ -51,4 +51,4 @@ Of course you should have maybe two other thresholds like 85% over a small time 
 
 I wrote some "ready to use" OpenNMS threshold configs which you can find in the wiki.
 
-Would you like to know more? link to wiki
+Would you like to know more? [Baseline CPU Thresholding](https://wiki.opennms.org/wiki/Baseline-CPU-thresholding)
