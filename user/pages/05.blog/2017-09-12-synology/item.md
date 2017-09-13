@@ -1,6 +1,6 @@
 ---
 title: Synology Monitors
-date: 21:00 2017-09-12
+date: 16:12 2017-09-13
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
@@ -8,12 +8,24 @@ taxonomy:
     tag: [configuration, snmp, wiki]
 ---
 
-A long time ago...
-I got MIB files for Synology NAS devices and wanted to create a monitoring solution.
-Unfortunately I didn't have a device.
+Network Attached Storage devices are very popular in small medium offices or at home to store and share data.
 
-So I suspended my task for another long time until I finally bought a Synology for private use.
-Synology supports the SNMP protocol which made it easy to get some useful status about system health.
-Consequent I was able to create some monitors using the [SNMP monitor](http://docs.opennms.org/opennms/releases/latest/guide-admin/guide-admin.html#_snmpmonitor).
+[Synology](https://www.synology.com) is one of the manufactures who build their devices with SNMP support to provide monitoring and managment capabilities.
+This makes it very easy to let OpenNMS keep an eye on your NAS and it can tell you if something goes wrong.
+All you need to do is, use the [SNMP Monitor](http://docs.opennms.org/opennms/releases/latest/guide-admin/guide-admin.html#_snmpmonitor) and configure the OIDs you want to monitor.
+Nobody likes to investigate MIB files, so I've shared my configuration in our [Wiki](https://wiki.opennms.org/wiki/Synology).
 
-Would you like to know more? -> [Synology Monitors](https://wiki.opennms.org/wiki/Synology)
+The article will tell you how to monitor the following items in your Synology NAS:
+
+* Overall system status
+* Power supply status if you have redundancy
+* System fan status
+* CPU fan status
+* Software update status
+* Update server connectivity
+* Physical disk drive status
+* Logical raid array status
+
+We have tested the configuration with a DS216J and DS1515+ and hope your NAS lives long and prosper.
+
+Wiki article: [Configuration to monitor Synology NAS](https://wiki.opennms.org/wiki/Synology)
