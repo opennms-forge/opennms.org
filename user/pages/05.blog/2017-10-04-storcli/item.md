@@ -7,9 +7,9 @@ taxonomy:
     category: wiki
     tag: [configuration, snmp, wiki]
 ---
-You don't want to go to all your servers by hand and watching out for red lights.
+You don't want to go to all your servers by hand and watching for red lights.
 Monitoring disks and RAID volumes is a fundamental part.
-Unfortunately manufactures for RAID controllers do all their own tooling hell and make it hard for monitoring tools.
+Unfortunately manufactures for RAID controllers do all their own tooling and make it hard for generic monitoring.
 
 In this article we show you how to extend the Net-SNMP agent and give you the possibility to monitor your RAID and Disks with Net-SNMP and give you the possibility to use any SNMP capable monitoring solution like OpenNMS.
 
