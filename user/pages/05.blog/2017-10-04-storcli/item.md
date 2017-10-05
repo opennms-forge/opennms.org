@@ -15,6 +15,6 @@ In this article we show you how to extend the Net-SNMP agent and give you the po
 
 For LSI MegaRAID controller you are probably familiar with the Storcli tool.
 It nearly has super cow powers and provides all information we need.
-I've created a Wiki article with all the bits an pieces you need to monitor your RAID and Disks with the Storcli tool and hope it makes your live easier.
+We created a wiki article with all the bits an pieces you need to monitor your RAID and Disks with the Storcli tool and hope it makes your live easier.
 
 Would you like to know more? -> [Monitoring Storcli based Raid Controllers](https://wiki.opennms.org/wiki/storcli)
