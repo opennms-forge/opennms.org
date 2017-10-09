@@ -17,7 +17,7 @@ It nearly has super cow powers and provides all information we need.
 In this article we show you how to extend the Net-SNMP agent and give you the possibility to monitor your RAID and Disks with Net-SNMP and give you the possibility to use any SNMP capable monitoring solution like OpenNMS.
 We created a wiki article with all the bits an pieces you need to monitor your RAID and Disks with the Storcli tool.
 The article describes how to set minimal permissions for the SNMP user, supports multiple controllers and RAID volumes.
-In case of an error, OpenNMS will tell you exactly which disks are broken and which RAID volumes degraded.
+In case of an error, OpenNMS will tell you exactly which disks got broke and which RAID volumes are degraded.
 
 The wrapper scripts to extend the Net-SNMP agent are published in a [GitHub repository](https://github.com/opennms-config-modules/lsi-megaraid-storcli) we hope it makes your live easier.
 
