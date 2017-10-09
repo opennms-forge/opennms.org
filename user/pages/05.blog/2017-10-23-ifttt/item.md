@@ -8,85 +8,28 @@ taxonomy:
     tag: [configuration, ifttt]
 ---
 
-OpenNMS Horizon 21 will provide [IFTTT](https://en.wikipedia.org/wiki/IFTTT) support for the first time.
-iFor those who don't know this service: **IF T**his **T**han **T**hat is a free web-based service for automations.
-And this will definitively revolutionize your alarm signaling!
+People familiar with production lines know [Stack Lights](https://en.wikipedia.org/wiki/Stack_light) to indicate the status of a machine.
 
-But what's that all about?i
+Wouldn't it be cool to have something similar as a status indicator for your IT-Infrastructure?
+This question is probably ~20 years old and ended up with things like the [USB Table Traffic Light](https://shop.netways.de/produkt/nagios-usb-ampel-medium/) you can buy now for arround 70,-€.
+Some diehards of OpenNMS might already know it's ancestor [onmsblink](https://github.com/opennms-forge/onmsblink).
+It uses the [blink1](https://blink1.thingm.com) USB multicolour  LED and shows the overall status using the highest outstanding alarm severity.
 
-Some diehards might already know it's ancestor [onmsblink](https://github.com/opennms-forge/onmsblink) which was able to color USB LED to highest alarm severity color.
-Now this feature was improved and in my opinion, like the title already told us, it really prettifies administrators live to get noticed when trouble looms up.
-But first let me list some other approaches that I personally don't want to work with anymore.
+Instead of using USB and dealing all the time with weird scripts to make things happen, Christian Pape developed at DevJam 2016 a very powerful generic [IFTTT](https://en.wikipedia.org/wiki/IFTTT) integration which will be available in Horizon 21.
+With using the IFTTT service you can create rules and trigger Internet of Thing devices with your OpenNMS instance and has a lot of potential.
 
-### Email Notification
-The email guys. Usually these are the same people who prefer doing nearly everything with Excel...
+To give you an example, I'll show you how I use a [LIFX WiFi internet capable multicolour Light Bulb](https://eu.lifx.com/collections/featured-products/products/lifx-plus) with a fancy [IKEA Light Shade](http://www.ikea.com/us/en/catalog/products/70096377) and the IFTTT web service.
+The use case is similar like with the USB blink.
+To indicate the status with the color of the Light Bulb.
+The funny part, cause the Light Bulb uses WiFi and is internet enabled, you can place the bulb **wherever** you want.
 
-But come on, wake up!
+I've placed it in my office and I can see instantly the health of my systems without touching a computer.
+There is nothing more relaxing, being welcomed with a fresh green light in the morning and can go to grab a cup of coffee.
 
-I can't understand why people want to have an email for every outage.
-I already get enough emails from humans and other sources.
+We have published the example as part of our [IFTTT documentation](http://docs.opennms.org/opennms/branches/develop/guide-admin/guide-admin.html#ga-ifttt).
+I hope you get inspired how you can connect things with the internet and trigger the real world with OpenNMS.
 
-### Dashboards
-I prefer this way more than the email way.
-
-Every monitoring system provides some kind of alarm overview in a more or less practical implementation.
-Whether lists, arrays or diagrams can present your environments status in a very good way.
-
-In this context I would also like to refer to an other amazing feature called [Statusbox](https://opennms.org/en/blog/2017-08-14-statusbox) available in Horizon 21.
-
-### Ops Boards
-Sometimes IT offices have big sceens at the walls or projections screens to present dashboards or diagrams like mention above.
-To be honest, usually these things are supposed to impress guests or maybe bosses.
-You often run into the issue that dashboards, alarm lists or diagrams which monitoring systems involves by default are designed to use on a usual monitor.
-
-In other words: You can't read or recognize the stuff because it's to far away.
-Fonts are too small or diagrams do not scale.
-
-### Noise
-Sounds when alarms occur.
-
-I never tried it.
-And I don't want to try it.
-
-It -sounds- annoying.
-
-But if you are interested, please have a look at [Alarm Sounds](http://docs.opennms.org/opennms/releases/latest/guide-admin/guide-admin.html#ga-alarm-sounds).
-
---
-
-So let's get back to the original topic.
-
-What's the probably most practical signal method?
-
-In general it's a ligth.
-
-It's true.
-
-Believe me.
-
-More precisely, it's a WiFi bulb with [IFTTT](https://en.wikipedia.org/wiki/IFTTT) support and of course a fancy lampshade.
-With the new [IFTTT](https://en.wikipedia.org/wiki/IFTTT) feature we can trigger the lamp to colour the alarms severity color.
-
-Whenever you enter your office you instantly see the health of your systems without touching a computer!
-Do you have some time to get a cup of coffee, or do you have to start to fix issues immediately?
-
-It reminds a bit on these fortune sayers' crystal balls.
-However OpenNMS tells you the truth!
-
-Check it out!
-
-VIDEO vom Testrun
-
-I'm currently using this hardware
-
-* [Lightshade](http://www.ikea.com/us/en/catalog/products/70096377)
-* [Bulb](https://eu.lifx.com/collections/featured-products/products/lifx-plus)
-
-But it works with every other WiFi [IFTTT](https://en.wikipedia.org/wiki/IFTTT) bulb.
-I would be marvellous to see some other setups.
-So feel free to provide your setup on [chat.opennms.org](https://chat.opennms.org/) or [Twitter](https://twitter.com/opennms?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).
-
-Of course the new feature is well documented on [docs.opennms.org](http://docs.opennms.org/opennms/releases/21.0.0/guide-admin/guide-admin.html#ga-ifttt).
+It would be marvellous to get some of your stories.
+Feel free to connect on [chat.opennms.org](https://chat.opennms.org/) or [Twitter](https://twitter.com/opennms?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor).
 
 So long
-
