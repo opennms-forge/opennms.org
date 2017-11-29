@@ -9,7 +9,7 @@ taxonomy:
 ---
 
 
-Monitoring should always help in bad situations and give a good overview about your system health status.
+Monitoring should always help in bad situations and provide a good overview about your system health status.
 Especially service availability monitors are quite handy to ensure that all services are running on the correct machines.
 
 In past I ran into an problem which was more a documentation issue than a classical monitor alarming issue.
