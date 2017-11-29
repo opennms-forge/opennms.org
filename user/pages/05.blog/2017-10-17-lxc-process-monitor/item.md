@@ -9,16 +9,15 @@ taxonomy:
 ---
 
 
-Monitoring should always help in bad situations and provide a good overview about your system health status.
-Especially service availability monitors are quite handy to ensure that all services are running on the correct machines.
+A monitoring solution should always help in bad situations and provide a useful overview of your system health status.
+Service availability monitors are especially handy to ensure that all services are running on the correct machines.
 
-In past I ran into an problem which was more a documentation issue than a classical monitor alarming issue.
+In past, I have run into an problem which was more of an issue with documentation than a classical monitor alarming issue.
 We had some servers with LXC containers running.
 Unfortunately these and other server went down because of some hypervisor issues.
-After restarting all of them, the LXC containers didn't come online again because of wrong autostart configurations...
+After restarting all of them, the LXC containers didn't come online again because of incorrect autostart configurations...
 
 The biggest issue was:
-We didn't know on which servers the LXC containers had run before.
-So we had a lot of research to do to get find them all.
+We didn't know which servers the LXC containers had run on in the past, so we had to do a lot of research to find them all.
 
 To get back to service availability monitoring mentioned above, I want to show you an example for LXC container monitoring based on OpenNMS' [process monitor](https://opennms.org/en/blog/2017-05-09-process-monitoring-snmp).
