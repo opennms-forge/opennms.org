@@ -1,4 +1,4 @@
----
+https://wiki.opennms.org/wiki/LXC_container_monitoring---
 title: Monitor LXC container processes using HostResourceSwRunMonitor
 date: 18:45 2017-11-27
 author: Marcel Fuhrmann
@@ -21,3 +21,5 @@ The biggest issue was:
 We didn't know which servers the LXC containers had run on in the past, so we had to do a lot of research to find them all.
 
 To get back to service availability monitoring mentioned above, I want to show you an example for LXC container monitoring based on OpenNMS' [process monitor](https://opennms.org/en/blog/2017-05-09-process-monitoring-snmp).
+
+Wiki article: [LXC Container Monitoring](https://wiki.opennms.org/wiki/LXC_container_monitoring)
