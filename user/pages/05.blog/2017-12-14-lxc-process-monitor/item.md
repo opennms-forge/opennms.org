@@ -12,7 +12,7 @@ A monitoring solution should always help in bad situations and provide a useful 
 Service availability monitors are especially handy to ensure that all services are running on the correct machines.
 
 In past, I have run into an problem which was more of an issue with documentation than a classical monitor alarming issue.
-We had some servers with LXC containers running.
+We had some servers with [LXC](https://en.wikipedia.org/wiki/LXC) containers running.
 Unfortunately these and other server went down because of some hypervisor issues.
 After restarting all of them, the LXC containers didn't come online again because of incorrect autostart configurations...
 
