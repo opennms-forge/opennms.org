@@ -1,13 +1,12 @@
 ---
 title: Monitor LXC container processes using HostResourceSwRunMonitor
-date: 18:45 2017-11-27
+date: 10:23 2017-12-14
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
     category: wiki
     tag: [use-case, configuration, snmp, wiki]
 ---
-
 
 A monitoring solution should always help in bad situations and provide a useful overview of your system health status.
 Service availability monitors are especially handy to ensure that all services are running on the correct machines.
