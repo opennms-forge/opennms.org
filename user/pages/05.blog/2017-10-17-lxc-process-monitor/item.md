@@ -1,4 +1,4 @@
-https://wiki.opennms.org/wiki/LXC_container_monitoring---
+---
 title: Monitor LXC container processes using HostResourceSwRunMonitor
 date: 18:45 2017-11-27
 author: Marcel Fuhrmann
