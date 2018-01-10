@@ -1,6 +1,6 @@
 ---
 title: CPU monitoring
-date: 21:37 2017-08-24
+date: 21:37 2018-01-16
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
@@ -32,7 +32,6 @@ Things can happen...
 But just small steps.
 
 It's not extreme enough to make noise and trigger usual alarms like >90% etc.
-
 
 So what do we need?
 
