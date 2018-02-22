@@ -16,6 +16,8 @@ For example, there are poller and collector thread graphs, report or also snmp t
 
 The datacollection can be activated by adding the opennms-jvm service onto the loopback interface on your OpenNMS server itself.
 
-Once your datacollection works and since The OpenNMS Group provides official Grafana support https://grafana.com/plugins/opennms-helm-app we are able to present our metrics easily in a [Grafana Dashboard Website](https://grafana.com/dashboards/4046).
+Once your datacollection works and since The OpenNMS Group provides [official Grafana support](https://grafana.com/plugins/opennms-helm-app) we are able to present these metrics easily in a [Grafana Dashboard Website](https://grafana.com/dashboards/4046).
+
+![](dashboard.png)
 
 Just follow the docs on Grafana how to import a dashboard http://docs.grafana.org/reference/export_import/ and add [board 4046](https://grafana.com/dashboards/4046) into your Grafana instance.
