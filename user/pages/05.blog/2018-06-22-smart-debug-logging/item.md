@@ -15,4 +15,4 @@ Especially collectd can be extremely chatty and it seems to be impossible to gre
 
 But the solution is simple. Since OpenNMS uses Log4j2 it's possible to create specific rules to pipe out node and deamon related logs into a seperate log file.
 
-Follow our wiki article to get more information: WIKI NOT CREATED YET
+Follow our wiki article to get more information: https://wiki.opennms.org/wiki/Seperate-collectd-log
