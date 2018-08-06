@@ -1,6 +1,6 @@
 ---
 title: Smart Debug Logging
-date: 18:32 2018-06-22
+date: 18:32 2018-08-05
 author: Marcel Fuhrmann
 body_classes: header-lite fullwidth blogstyling
 taxonomy:
